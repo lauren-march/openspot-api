@@ -1,6 +1,11 @@
 site_name: OpenSpot API Documentation
+site_url: https://lauren-march.github.io/openspot-api/
 repo_name: lauren-march/openspot-api
-repo_url: https://github.com/lauren-march/openspot-api
+repo_url: https://github.com/lauren-march/openspot-api/
+
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
 
 nav:
   - Home: index.md
