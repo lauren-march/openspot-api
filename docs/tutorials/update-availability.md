@@ -34,11 +34,11 @@ You will also need to download and use [Postman](https://www.postman.com/downloa
 
 1. Enter the following body information:
 
-   ```json
-    {
-        "availableSpots": 6
-    },
-    ```
+        ```json
+        {
+            "availableSpots": 6
+        }
+        ```
 
 1. Click **Send**.
 

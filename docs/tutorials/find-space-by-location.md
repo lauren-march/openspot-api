@@ -18,7 +18,7 @@ You can reasonably expect this tutorial to take about 10 minutes or less to comp
 
 Make sure you have set up your database environment by following the steps in the [Set up your server](../overview/getting-started.md) guide.
 
-You will also need to download and use [Postman](https://www.postman.com/downloads/).
+You will also need to download and use [Postman](https://www.postman.com/downloads/) or use cURL from the command line.
 
 ## Find spaces by location
 
@@ -27,6 +27,18 @@ For this tutorial we will be using the `_like` JSON Server filter operator. This
 This is useful when an API may not specify the exact format of the resource's variables. You can think of it as emulating intelligent search that you would typically find when interacting with real APIs.
 
 Follow the steps below to find all instances of spaces by their location.
+
+### cURL walkthrough
+
+1. Open a CLI (command line interface) and enter the following command:
+
+    `curl "http://localhost:3000/spaces?location_like=canada"`
+
+1. Hit **Enter** to run the command.
+
+    ![Expected result](media/find-space-by-location/curl-example.png)
+
+### Postman walkthrough
 
 1. Open an instance of Postman and create a new Request by clicking the **'+'**.
 

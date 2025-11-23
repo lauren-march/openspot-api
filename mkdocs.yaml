@@ -15,6 +15,7 @@ nav:
       - Add a New Space: tutorials/add-a-new-space.md
       - Check Availability: tutorials/find-space-by-location.md
       - Update Availability: tutorials/update-availability.md
+      - Delete a space: tutorials/delete-a-space.md
   - API Reference:
       - API Reference Guide: api-reference/api-reference-guide.md
       - Spaces:
