@@ -13,7 +13,7 @@ nav:
       - Getting Started: overview/getting-started.md
   - Tutorials:
       - Add a New Space: tutorials/add-a-new-space.md
-      - Check Availability: tutorials/check-availability.md
+      - Check Availability: tutorials/find-space-by-location.md
       - Update Availability: tutorials/update-availability.md
   - API Reference:
       - API Reference Guide: api-reference/api-reference-guide.md
