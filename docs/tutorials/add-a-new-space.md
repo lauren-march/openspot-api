@@ -12,7 +12,7 @@ In this tutorial, you'll learn how to create a new space in the OpenSpot API JSO
 
 The `POST` method appends a new `space` object to the `spaces` array. This is useful when you need to add a newly available coworking or coliving space.
 
-You can reasonably expect this tutorial to take about 15 minutes or less to complete.
+You can reasonably expect this tutorial to take about 10 minutes or less to complete.
 
 ## Before you start
 
@@ -36,15 +36,15 @@ Follow the steps below to create a new space.
 
 1. Enter the following body information:
 
-   ```json
-    {
-    "name": "Sunset Studio",
-    "location": "Barcelona, Spain",
-    "pricePerHour": 6,
-    "capacity": 15,
-    "description": "Bright coworking space with Mediterranean views and creative atmosphere."
-    }
-    ```
+        ```json
+        {
+        "name": "Sunset Studio",
+        "location": "Barcelona, Spain",
+        "pricePerHour": 6,
+        "capacity": 15,
+        "description": "Bright coworking space with Mediterranean views and creative atmosphere."
+        }
+        ```
 
 1. Click **Send**.
 
