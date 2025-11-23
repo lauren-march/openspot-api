@@ -8,7 +8,7 @@ tags:
   - create
 ---
 
-In this tutorial, you'll learn how to create a new space in the OpenSpot API JSON database. In order to add a new space, you'll need to use the `POST` HTTP method.
+In this tutorial, you'll learn how to create a new space in the OpenSpot API JSON mock database. In order to add a new space, you'll need to use the `POST` HTTP method.
 
 The `POST` method appends a new `space` object to the `spaces` array. This is useful when you need to add a newly available coworking or coliving space.
 
@@ -16,15 +16,13 @@ You can reasonably expect this tutorial to take about 15 minutes or less to comp
 
 ## Before you start
 
-Make sure you have set up your database environment by following the steps in the [Set up your server](../overview/setting-up-your-server.md) guide.
+Make sure you have set up your database environment by following the steps in the [Set up your server](../overview/getting-started.md) guide.
 
-You will also need to download and use [Postman](https://www.postman.com/downloads/).
+You will also need to download and use [Postman](https://www.postman.com/downloads/). You can optionally use cURL, however, Postman for `POST` calls are generally more intuitive. Since you will be entering **body** information, the formatting is more simple in Postman as opposed to cURL in the CLI.
 
 ## Add a new space
 
 Follow the steps below to create a new space.
-
-### Postman
 
 1. Open an instance of Postman and create a new Request by clicking the **'+'**.
 
